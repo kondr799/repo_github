@@ -108,3 +108,5 @@ print('ещё' in text)
 print(text.lower())
 print(text.upper())
 print(text.replace('ещё','ЕЩЁ'))
+print(text.replace('ещё','ЕЩЁ'))
+
