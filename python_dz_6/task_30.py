@@ -10,5 +10,6 @@
 a1 = int(input('Ввести значение 1-го элемента: '))
 d = int(input('Ввести разность элементов: '))
 n = int(input('Ввести кол-во элементов: '))
+
 for i in range(n):
-    print(a1 + i * d, end=' ')
+    print(a1 + i * d, end=', ')
