@@ -1,9 +1,10 @@
 import random
 
-def generator_pass(length):
+def generator_pass(lenght):
     symbols = "abcdefghiklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
-    password = "".join(random.sample(symbols, length))
+    password = "".join(random.sample(symbols,lenght))
     return password
 
-pass_length = int(input("Введите размер вашего пароля: "))
-print("Вот твой пароль!: " + generator_pass(pass_length))
+
+pass_lenght = int(input("Введите размер вашего желаемого пароля: "))
+print("Вот ваш новый пароль!!: " + generator_pass(pass_lenght))
